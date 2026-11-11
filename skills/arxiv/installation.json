@@ -1,0 +1,25 @@
+{
+  "source": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "commit": "8f493923f28c3f991dcca1287db97aa780d0969b",
+  "upstream_files": [
+    "skills/arxiv/SKILL.md",
+    "tools/arxiv_fetch.py",
+    "skills/shared-references/integration-contract.md",
+    "skills/shared-references/wiki-helper-resolution.md",
+    "LICENSE"
+  ],
+  "local_adaptations": [
+    "Bundled upstream search/download helper under scripts/",
+    "Bundled references and updated relative links",
+    "Added skill-local helper to resolution chain",
+    "Resolved bundled helper relative to the actual SKILL.md location for portable installation",
+    "Removed Claude-specific argument-hint metadata for Codex validation"
+  ],
+  "sha256": {
+    "LICENSE": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+    "SKILL.md": "756f07983a8d267ab98fa7dcf914a195dc1b9483c057294100e7264ca8337dc2",
+    "references/integration-contract.md": "2a182e6ab3cd8e035b92874bcd8173b421ed6d403b280b3df3a49fa5d488e0f3",
+    "references/wiki-helper-resolution.md": "0f4f408e97ed06f9d6d9775d9a1eb4008f6a76b8e728fe05321cca44a593529a",
+    "scripts/arxiv_fetch.py": "30446596ca9aeb66a0a2f20fc0919d5f473fbee34dd611fee5c3613fadf5e7fa"
+  }
+}
